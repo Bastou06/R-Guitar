@@ -1,0 +1,291 @@
+#logo {
+
+    width: 37%;
+
+}
+
+.nav-link {
+
+    font-size: larger;
+
+}
+
+#boutique {
+
+    width: 85%;
+
+}
+
+
+
+.bg-titre {
+
+    background: url(bakground.jpg);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    JUSTIFY-CONTENT: CENTER;
+    background-size: cover;
+    border-top: 10px solid #B14949;
+}
+
+#titre {
+
+    margin-top: 61vh;
+    margin-left: 50vw;
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+
+
+
+
+#esprit-rguitar {
+
+    background: #B14949;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    padding-left: 90px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-family: 'Roboto',
+        sans-serif;
+    letter-spacing: normal;
+    letter-spacing: 10px;
+
+
+
+}
+
+
+#page2 {
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+#texte-musique {
+
+    padding-left: 100px;
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+    margin-left: 4%;
+
+
+
+}
+
+.trait-avant {
+
+    text-align: end;
+}
+
+.trait-apres {
+    display: table;
+    white-space: nowrap;
+
+}
+
+.trait-avant {
+    display: table;
+    white-space: nowrap;
+
+}
+
+.trait-avant:before {
+    content: "";
+    display: table-cell;
+    width: 100%;
+    background: #B14949;
+    border: 8px solid white;
+
+}
+
+
+.trait-apres:after {
+    content: "";
+    display: table-cell;
+    width: 100%;
+    background: #B14949;
+    border: 8px solid white;
+}
+
+
+
+
+.photo-1-2 {
+
+    display: inline-flex;
+    margin-bottom: 8px;
+
+
+}
+
+#photo1 {
+
+    margin-right: 19px;
+
+}
+
+
+
+.photo-1-2-3 {
+
+    padding-left: 20%;
+
+}
+
+#grattes {
+
+    background: #B14949;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    justify-content: end;
+    padding-right: 100px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-family: 'Roboto',
+        sans-serif;
+    letter-spacing: normal;
+    letter-spacing: 10px;
+}
+
+
+
+#stock-guitare {
+
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+    width: 31%;
+
+}
+
+#guitares {
+
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#bloc-guitare {
+
+    text-align: center;
+    font-size: 20px;
+
+
+
+}
+
+#img-guitare {
+
+    width: 22vw;
+
+}
+
+#contact {
+
+    background: #B14949;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    justify-content: start;
+    padding-left: 100px;
+    margin-top: 50px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-family: 'Roboto',
+        sans-serif;
+    letter-spacing: normal;
+    letter-spacing: 10px;
+
+
+}
+
+#titre-contact {
+
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3VH;
+    margin-bottom: 3VH;
+
+}
+
+#formulaire {
+
+    width: 50%;
+    text-align: start;
+    margin-left: 25%;
+    margin-right: 10%;
+
+}
+
+#email-telephone {
+
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+
+}
+
+#message {
+
+    height: 40VH;
+
+}
+
+#valider {
+
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+@media screen and (max-width: 600px) {
+    .bloc-guitare {
+
+        width: 80%;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .bloc-guitare {
+
+        width: 40%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 1450px) {
+    col {
+
+        display: flex;
+        flex-wrap: nowwrap;
+        width: 100%;
+
+    }
+
+
+}
